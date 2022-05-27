@@ -1,0 +1,177 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name:Jameson Yee
+ * email: yeeja@oregonstate.edu
+ */
+
+
+ .header-image-container{
+     display: flex;
+     background-color: black;
+ }
+
+ .site-title a {
+     font-family: 'Roboto Slab';
+     position: relative;
+     top: -125px;
+     left: 200px;
+     font-size: 75px;
+     font-weight: bold;
+ }
+
+ .filter-container{
+    font-family: 'Roboto';
+    display: inline-block;
+    background-color: lightgray;
+    height: 400px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+ }
+
+ .filter-input-container{
+     display: flex;
+     width: 100%;
+     margin: 20px 0px;
+     align-items: center;
+ }
+
+ #filter-text{
+    width: 100px;
+    margin-left: 10px;
+ }
+
+ #filter-min-price{
+     width: 50px;
+     margin-right: 10px;
+     margin-left: 10px;
+ }
+
+ #filter-max-price{
+     width: 50px;
+     
+ }
+
+ #filter-city{
+     width: 125px;
+     text-align: center;
+     margin-left: 10px;
+ }
+
+ .filter-input{
+     border-radius: 3px;
+     border-width: 1px;
+ }
+
+ #filter-condition{
+    width: 150px;
+ }
+
+ .action-button{
+    font-family: 'Roboto';
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 7px;
+}
+
+ .content {
+     display: flex;
+     position: relative;
+     bottom: 125px;
+     font-family: 'Roboto';
+ }
+
+ #posts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+
+ .post {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 10px;
+ }
+
+ .post-contents{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+ }
+
+ .post-title {
+    color: orange;
+    text-decoration: none;
+ }
+
+ .post-price{
+     background-color: lightgray;
+     padding: 2px;
+     border: 1px solid;
+     border-radius: 4px;
+     outline: black;
+ }
+
+ .post-city{
+     font-weight: bold;
+ }
+ .post-image-container{
+     display: flex;
+     justify-content: center;
+ }
+
+ .post-image-container img{
+    max-width: 290px;
+    max-height: 250px;
+    margin-bottom: 20px;
+ }
+
+
+.action-button:hover{
+    background-color: #ffd000;
+    color: white;
+}
+
+#sell-something-button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    box-shadow: 2px 2px 5px 2px #c5c5c5;
+}
+
+#sell-something-button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 2px #c5c5c5;
+}
+
+a {
+    color:rgb(255, 255, 255);
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
